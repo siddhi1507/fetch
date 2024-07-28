@@ -1,0 +1,37 @@
+.photo-gallery {
+    padding: 20px;
+  }
+  
+  .photo-gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .photo-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-card p {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
